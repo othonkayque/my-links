@@ -69,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;    
-    gap: 2rem;
+    gap: 0.7rem;
 }
 
 .link-square {
@@ -87,6 +87,7 @@ body {
     transition: ease-in-out 1s;
 }
 
+
 .link-square:hover {
     background-color: var(--darker-red);
 }
@@ -95,7 +96,11 @@ body {
 .hole {
     background-color: var(--darker-grey);
     width: 70px;
-    height: 50px;
+    height: 30px;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+a {
+    text-decoration-line: none;
 }
